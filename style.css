@@ -244,7 +244,7 @@ body {
   gap: var(--gap-small);
   position: relative;
 }
-.cart-header {
+.card-header {
   display: flex;
   flex-direction: row;
   gap: var(--gap-small);
@@ -294,7 +294,7 @@ body {
   display: none;
 }
 
-@media (min-width: 991px) {
+@media (min-width: 768px) {
   :root {
     --fs-small: 1.6rem;
     --fs-medium: 1.8rem;
